@@ -3,8 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <h1>all componnets</h1>
+    <div style={{backgroundColor: "rgb(241, 100, 100)"}}>
+      <h1 >all componnets</h1>
       <nav style={{borderBottom: "solid 1px", paddingBottom: "1rem"}}>
         <h3>
       <Link to="/baga">to show baga</Link> | {" "}

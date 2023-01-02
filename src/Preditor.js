@@ -3,7 +3,7 @@ import { Outlet, Link } from 'react-router-dom'
 
 const Preditor = () => {
     return (
-        <div><h1>Preditor</h1><br></br>
+        <div style={{backgroundColor: "rgb(201, 238, 108)"}}><h1>Preditor</h1><br></br>
             <nav style={{ borderBottom: "solid 1px", paddingBottom: "1rem" }}>
                 <h3>
                     <Link to="/zoo/preditor/tiger">to show tiger</Link> | {" "}

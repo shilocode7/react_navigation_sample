@@ -3,7 +3,7 @@ import {Outlet, Link } from 'react-router-dom'
 
 const Zoo = () => {
     return (
-        <div>
+        <div style={{backgroundColor: "rgb(243, 171, 89)"}}>
             <h1>Zoo</h1><br></br>
             <nav style={{ borderBottom: "solid 1px", paddingBottom: "1rem" }}>
                 <h3>
